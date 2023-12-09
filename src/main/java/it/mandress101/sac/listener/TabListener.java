@@ -63,8 +63,6 @@ public class TabListener {
             pw.println(format);
             pw.flush();
             pw.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        } catch (IOException ignore) {}
     }
 }

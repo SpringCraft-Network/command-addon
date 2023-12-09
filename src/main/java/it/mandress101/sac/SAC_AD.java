@@ -40,9 +40,7 @@ public final class SAC_AD extends JavaPlugin {
             if(!txt.exists()) {
                 try {
                     txt.createNewFile();
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
+                } catch (IOException ignored) {}
             }
         }
         new TabListener(this, isLogs);
