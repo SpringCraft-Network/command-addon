@@ -1,0 +1,14 @@
+# SAC-CommandAddon Config file, version: @version@
+# MUST USE PROTOCOLIB AND SAC
+features:
+  anti-tab-complete:
+    # Enable this feature?
+    enabled: true
+    # Should I can save the command executed by player?
+    logs:
+      enabled: true
+
+    # Here you can put the list of the command
+    list:
+      # other commands to block while executing tab compilation
+      - "/vulcan"

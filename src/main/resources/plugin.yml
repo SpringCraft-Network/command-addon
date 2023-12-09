@@ -1,0 +1,5 @@
+name: SAC-CommandBlocker
+version: '${version}'
+main: it.mandress101.sac.SAC_AD
+depend:
+  - ProtocolLib
